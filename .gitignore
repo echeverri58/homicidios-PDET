@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Registros y temporales
+*.log
+npm-debug.log*
+tmp/
+temp/
+
+# Archivos generados localmente
+homicidios-pdet-detalle-*.csv

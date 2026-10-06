@@ -1,0 +1,37 @@
+{
+  "name": "observatorio-homicidios-pdet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dashboard analítico e interactivo de homicidios en municipios PDET de Colombia (2003–2026). HTML, CSS y JavaScript sin dependencias externas.",
+  "keywords": [
+    "colombia",
+    "pdet",
+    "homicidios",
+    "dashboard",
+    "datos-abiertos",
+    "visualizacion-de-datos",
+    "vanilla-js"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build:data": "node tools/build-data.js",
+    "serve": "node tools/serve.js",
+    "start": "node tools/serve.js",
+    "verify": "node tools/verify-refs.js && node tools/verify.js && node tools/verify-render.js",
+    "verify:refs": "node tools/verify-refs.js",
+    "verify:data": "node tools/verify.js",
+    "verify:render": "node tools/verify-render.js"
+  },
+  "files": [
+    "index.html",
+    "css/",
+    "js/",
+    "assets/",
+    "data/",
+    "tools/"
+  ]
+}

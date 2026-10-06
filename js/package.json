@@ -1,0 +1,4 @@
+{
+  "//": "Marca esta carpeta como ESM para que Node pueda importar los módulos del navegador en las pruebas (tools/verify.js). Los navegadores ignoran este archivo.",
+  "type": "module"
+}

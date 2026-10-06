@@ -1,0 +1,26 @@
+{
+  "name": "Observatorio de Homicidios · PDET Colombia",
+  "short_name": "Homicidios PDET",
+  "description": "Dashboard analítico interactivo de homicidios en municipios PDET de Colombia (2003-2026). Creado por John A. Echeverry O., Analista de Datos, por solicitud de Mauricio García.",
+  "author": {
+    "name": "John A. Echeverry O.",
+    "email": "echeverri58@gmail.com"
+  },
+  "lang": "es-CO",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b14",
+  "theme_color": "#070b14",
+  "categories": ["education", "government", "productivity"],
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
